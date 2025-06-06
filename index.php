@@ -448,7 +448,7 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
                 </div>
 
                 <div class="img-topo-site">
-                    <img src="/api/placeholder/500/500" alt="Imagem Hero">
+                    <img src="images/pc.png" alt="Imagem Hero">
                 </div>
             </div>
         </div>
@@ -536,7 +536,7 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
             <h2 class="titulo">Meu <span>Portfólio</span></h2>
 
             <div class="flex">
-                <div class="img-port" style="background-image: url('/api/placeholder/360/460')">
+                <div class="img-port" style="background-image: url('images/site1.png')">
                     <div class="overlay">
                         <h3>Projeto Website</h3>
                         <div class="tecnologias">
@@ -545,7 +545,10 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
                             <span>JavaScript</span>
                         </div>
                         <div class="btn-ver">
-                            <button>Ver Projeto</button>
+                            <a href="https://sitetastyrestaurante.netlify.app/"><button>Ver Projeto</button></a>
+                        </div>
+                        <div class="btn-ver">
+                            <a href="https://github.com/jeffsilva03/tastySalad"><button>GitHub</button></a>
                         </div>
                     </div>
                 </div>
@@ -561,19 +564,25 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
                         <div class="btn-ver">
                             <button>Ver Projeto</button>
                         </div>
+                        <div class="btn-ver">
+                            <a href="https://github.com/jeffsilva03/augebitMOBILE"><button>GitHub</button></a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="img-port" style="background-image: url('/api/placeholder/360/460')">
                     <div class="overlay">
-                        <h3>E-commerce</h3>
+                        <h3>Site Institucional</h3>
                         <div class="tecnologias">
-                            <span>WordPress</span>
-                            <span>WooCommerce</span>
                             <span>PHP</span>
+                            <span>CSS</span>
+                            <span>MySQL</span>
                         </div>
                         <div class="btn-ver">
                             <button>Ver Projeto</button>
+                        </div>
+                        <div class="btn-ver">
+                            <a href="https://github.com/jeffsilva03/augebitWeb"><button>GitHub</button></a>
                         </div>
                     </div>
                 </div>
