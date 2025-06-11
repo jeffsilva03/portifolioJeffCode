@@ -16,7 +16,8 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Digital</title>
+    <title>Jeff Code</title>
+    <link rel="shortcut icon" href="images/icone.png" type="image/x-icon">
     <!-- Bootstrap Icons -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -553,36 +554,39 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
                     </div>
                 </div>
 
-                <div class="img-port" style="background-image: url('/api/placeholder/360/460')">
+                <div class="img-port" style="background-image: url('images/site3.png')">
                     <div class="overlay">
-                        <h3>App Mobile</h3>
+                        <h3>Landing Page</h3>
                         <div class="tecnologias">
-                            <span>React Native</span>
-                            <span>Node.js</span>
-                            <span>Firebase</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>SCSS</span>
+                            <span>JavaScript</span>
                         </div>
                         <div class="btn-ver">
-                            <button>Ver Projeto</button>
+                             <a href="https://landingpagefone.netlify.app/"><button>Ver Projeto</button></a>
                         </div>
                         <div class="btn-ver">
-                            <a href="https://github.com/jeffsilva03/augebitMOBILE"><button>GitHub</button></a>
+                            <a href="https://github.com/jeffsilva03/landingpageProduto"><button>GitHub</button></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="img-port" style="background-image: url('/api/placeholder/360/460')">
+              
+
+                <div class="img-port" style="background-image: url('images/site2.png')">
                     <div class="overlay">
-                        <h3>Site Institucional</h3>
+                        <h3>Site Viagens</h3>
                         <div class="tecnologias">
                             <span>PHP</span>
                             <span>CSS</span>
                             <span>MySQL</span>
                         </div>
                         <div class="btn-ver">
-                            <button>Ver Projeto</button>
+                             <a href="https://viagensweb.netlify.app/"><button>Ver Projeto</button></a>
                         </div>
                         <div class="btn-ver">
-                            <a href="https://github.com/jeffsilva03/augebitWeb"><button>GitHub</button></a>
+                            <a href="https://github.com/jeffsilva03/siteViagens"><button>GitHub</button></a>
                         </div>
                     </div>
                 </div>
@@ -658,7 +662,7 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
         <div class="interface">
             <div class="worldskills-header">
                 <h2>Competidor WorldSkills</h2>
-                <p>Representando o Brasil na maior competição mundial de habilidades profissionais, onde os melhores talentos se encontram</p>
+                <p>Representando o SENAI Suzano na maior competição mundial de habilidades profissionais</p>
             </div>
 
             <div class="worldskills-content">
@@ -668,10 +672,10 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
                         Competidor Oficial
                     </div>
                     
-                    <h3>Excelência em <span>Desenvolvimento Web</span></h3>
+                    <h3>Excelência em <span>Desenvolvimento FullStack</span></h3>
                     
                     <p class="worldskills-description">
-                        Selecionado para representar o Brasil na WorldSkills, a maior competição de habilidades profissionais do mundo. 
+                        Selecionado para representar o SENAI Suzano na SPSkills - etapa estadual da WorldSkills - , a maior competição de habilidades profissionais do mundo. 
                         Esta conquista representa anos de dedicação e aperfeiçoamento constante em desenvolvimento web e tecnologias digitais.
                     </p>
 
@@ -691,13 +695,13 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
                     </div>
 
                     <div class="worldskills-skills">
-                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Prototipação</span>
                         <span class="skill-tag">Frontend</span>
                         <span class="skill-tag">Backend</span>
                         <span class="skill-tag">UI/UX Design</span>
                         <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">PHP</span>
-                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Dart</span>
                         <span class="skill-tag">Node.js</span>
                     </div>
                 </div>
@@ -713,7 +717,7 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
                         <div class="medal-content">
                             <i class="bi bi-award medal-icon"></i>
                             <div class="medal-text">WorldSkills</div>
-                            <div class="medal-year">China 2027</div>
+                            <div class="medal-year">Japão 2028</div>
                         </div>
                     </div>
                 </div>
@@ -814,7 +818,7 @@ unset($_SESSION['erros'], $_SESSION['sucesso']);
                 <div class="contact-section">
                     <p>
                         <i class="bi bi-envelope-fill"></i>
-                        <a href="mailto:contato@portfolio.com">contato@portfolio.com</a>
+                        <a href="mailto:jeffcode.ofc@gmail.com">jeffcode.ofc@gmail.com</a>
                     </p>
                 </div>
             </div>

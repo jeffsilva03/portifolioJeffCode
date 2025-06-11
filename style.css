@@ -2144,3 +2144,145 @@ section.depoimentos {
 
 
  
+
+/* RESPONSIVIDADE PARA DISPOSITIVOS MÓVEIS */
+
+/* Tablets e pequenos laptops (até 768px) */
+@media (max-width: 768px) {
+    /* Ajusta padding da seção para não ficar muito espaçoso */
+    section.formulario {
+        padding: 60px 0 40px;
+    }
+    /* Container interno com padding menor */
+    .interface {
+        padding: 0 15px;
+    }
+    /* Título menor e margin reduzida */
+    .titulo {
+        font-size: clamp(2rem, 5vw, 3rem);
+        margin-bottom: 30px;
+    }
+    /* Formulário ocupa quase toda a largura */
+    form {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 15px;
+        padding: 30px 20px;
+        border-radius: 20px;
+    }
+    /* Inputs menores */
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form textarea {
+        padding: 16px 18px;
+        font-size: 15px;
+    }
+    /* Botão ocupa menos espaço lateral, mas ainda clicável */
+    .btn-enviar input[type="submit"] {
+        padding: 14px 30px;
+        font-size: 15px;
+        min-width: 160px;
+    }
+    /* Mensagens de status com padding reduzido */
+    .mensagem {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    /* Reduz tamanho dos elementos decorativos ou diminui sua opacidade */
+    section.formulario::before,
+    section.formulario::after {
+        width: 500px;
+        height: 500px;
+        /* opcional: se quiser ocultar em telas menores */
+        /* display: none; */
+    }
+    .floating-dots {
+        width: 5px;
+        height: 5px;
+        opacity: 0.3;
+    }
+}
+
+/* Smartphones grandes (até 480px) */
+@media (max-width: 480px) {
+    /* Seção com padding ainda menor */
+    section.formulario {
+        padding: 40px 0 30px;
+    }
+    .titulo {
+        font-size: clamp(1.5rem, 6vw, 2.5rem);
+        margin-bottom: 20px;
+    }
+    form {
+        padding: 20px 15px;
+        border-radius: 18px;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form textarea {
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+    .btn-enviar input[type="submit"] {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 14px;
+        min-width: auto;
+    }
+    .mensagem {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    /* Melhorar legibilidade: reduzir ou ocultar pseudo-elementos de fundo */
+    section.formulario::before,
+    section.formulario::after {
+        display: none;
+    }
+    /* Ocultar pontos flutuantes para não poluir visual */
+    .floating-dots {
+        display: none;
+    }
+}
+
+/* Smartphones muito pequenos / modos retrato estreitos (até 360px) */
+@media (max-width: 360px) {
+    /* Padding mais enxuto */
+    section.formulario {
+        padding: 30px 0 20px;
+    }
+    .titulo {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    form {
+        padding: 15px 10px;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form textarea {
+        padding: 12px 14px;
+        font-size: 13px;
+    }
+    .btn-enviar input[type="submit"] {
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    .mensagem {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}
+
+/* Ajustes opcionais de flexibilidade para elementos internos */
+/* Se houver colunas lado a lado, transformar em coluna única */
+@media (max-width: 768px) {
+    .form-row, /* exemplo de classe para linha de inputs */
+    .duas-colunas { /* adapte conforme sua marcação HTML */
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
